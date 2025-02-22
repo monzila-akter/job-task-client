@@ -7,7 +7,7 @@ import Swal from "sweetalert2";
 import { FaEdit, FaTrash } from "react-icons/fa";
 import { AuthContext } from "../provider/AuthProvider";
 
-const API_URL = "http://localhost:5000"; // Change this when deploying
+const API_URL = "https://job-task-server-10p0.onrender.com"; // Change this when deploying
 
 const taskStages = ["To-Do", "In Progress", "Done"];
 

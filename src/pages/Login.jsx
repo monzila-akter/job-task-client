@@ -26,10 +26,10 @@ const Login = () => {
             displayName: user.displayName,
           })
           .then((response) => {
-            console.log("User saved:", response.data);
+            // console.log("User saved:", response.data);
           })
           .catch((error) => {
-            console.error("Error saving user:", error);
+            // console.error("Error saving user:", error);
           });
       };
 
@@ -37,7 +37,7 @@ const Login = () => {
  const handleGoogleLogin = () => {
     googleLogin()
       .then(result => {
-        console.log(result.user)
+        // console.log(result.user)
 
         saveUserToDatabase(result.user)
 
