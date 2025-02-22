@@ -1,10 +1,11 @@
 import React from 'react';
-import TaskBoard from '../components/TaskBoard';
+
+import Banner from '../components/Banner';
 
 const Home = () => {
     return (
         <div>
-         <TaskBoard></TaskBoard>   
+        <Banner></Banner>  
         </div>
     );
 };
